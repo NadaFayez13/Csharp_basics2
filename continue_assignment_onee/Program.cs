@@ -33,6 +33,16 @@
             Console.WriteLine(string_pages.GetType());
             #endregion
 
+            #region Question 10
+            //Declare int copies = 100;. Box it into an object variable, then unbox it back into a new int variable, and print both.
+            int copies = 100;
+            object boxedCopies = copies; 
+            Console.WriteLine(boxedCopies);
+
+            int unboxedCopies = (int)boxedCopies;
+            Console.WriteLine(unboxedCopies);
+            #endregion
+
         }
     }
 }
