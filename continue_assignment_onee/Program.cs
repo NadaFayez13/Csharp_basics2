@@ -15,8 +15,8 @@
             /*Given string yearText = "2023";, convert it using int.Parse(). Then given string badText = "abc";
             use int.TryParse() to safely try converting it, and print "Invalid number" if it fails */
             string yearText = "2023";
-            int year = int.Parse(yearText);
-            Console.WriteLine(year);
+            //int year = int.Parse(yearText);
+          //  Console.WriteLine(year);
 
             string badText = "abc";
             bool parsed = int.TryParse(badText, out int bad);
@@ -41,6 +41,15 @@
 
             int unboxedCopies = (int)boxedCopies;
             Console.WriteLine(unboxedCopies);
+            #endregion
+
+            #region Question 11
+            //Declare an int? year = null;. Print whether it has a value, then assign it 2023 and print its value.
+            int? year = null;
+            Console.WriteLine(year.HasValue);
+
+            year = 2023;
+            Console.WriteLine(year);
             #endregion
 
         }
