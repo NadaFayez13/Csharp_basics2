@@ -7,8 +7,8 @@
             #region Question 7
             //Given string pagesText = "464";, convert it into an int using the Convert class.
             string pagesText = "464";
-            int pages = Convert.ToInt32(pagesText);
-            Console.WriteLine(pages);
+            //int pages = Convert.ToInt32(pagesText);
+          //  Console.WriteLine(pages);
             #endregion
 
             #region Question 8
@@ -25,6 +25,14 @@
                 Console.WriteLine("Invalid number");
             }
             #endregion
+
+            #region Question 9
+            //Given int pages = 464;, convert it into a string using ToString() and print its type using  GetType() to prove it's now a string.
+            int pages=464;
+            string string_pages = pages.ToString();
+            Console.WriteLine(string_pages.GetType());
+            #endregion
+
         }
     }
 }
