@@ -1,4 +1,6 @@
-﻿namespace continue_assignment_onee
+﻿using System.Drawing;
+
+namespace continue_assignment_onee
 {
     internal class Program
     {
@@ -52,6 +54,11 @@
             Console.WriteLine(year);
             #endregion
 
+            #region Question 12
+            //Declare a string? reviewer = null;. Print whether it is null.
+            string? reviewer = null;
+            Console.WriteLine(reviewer == null);
+            #endregion
         }
     }
 }
