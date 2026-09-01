@@ -6,8 +6,8 @@ namespace continue_assignment_onee
 {
     internal class Book
     {
-        string Title;
-        int Pages;
+       public string Title;
+        public int Pages;
 
     }
 }
